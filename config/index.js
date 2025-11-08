@@ -5,11 +5,13 @@
 const path = require('path')
 const commonProxy = {
   onProxyReq: (proxyReq, req, res) => {
-    proxyReq.setHeader('Referer', process.env.TARGET)
+    proxyReq.setHeader('Referer', 'http://localhost')
   },
-  target: process.env.TARGET,
+  target: 'http://localhost',   // ✅ 포트번호 없이 localhost (현재 Docker backend 외부포트가 80임)
   changeOrigin: true
 }
+
+
 
 module.exports = {
   build: {

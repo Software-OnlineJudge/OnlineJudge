@@ -6,6 +6,7 @@ console.log(`current version is ${version}`)
 
 module.exports = {
   NODE_ENV: '"development"',
+  TARGET: '"http://localhost:8000"',
   VERSION: version,
   USE_SENTRY: '0'
 }

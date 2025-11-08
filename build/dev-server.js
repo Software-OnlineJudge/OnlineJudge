@@ -8,6 +8,7 @@ if (!process.env.NODE_ENV) {
 
 const opn = require('opn')
 const path = require('path')
+console.log('Vue Dev TARGET =', process.env.TARGET)
 const express = require('express')
 const webpack = require('webpack')
 const proxyMiddleware = require('http-proxy-middleware')
@@ -58,11 +59,18 @@ Object.keys(proxyTable).forEach(function (context) {
 
 // handle fallback for HTML5 history API
 const rewrites = {
-  rewrites: [{
-    from: '/admin/', // 正则或者字符串
-    to: '/admin/index.html', // 字符串或者函数
-  }]
+  rewrites: [
+    {
+      from: '/admin/',
+      to: '/admin/index.html',
+    },
+    {
+      from: '/oj/',
+      to: '/oj/index.html',
+    }
+  ]
 }
+
 const historyMiddleware = require('connect-history-api-fallback')(rewrites);
 app.use(historyMiddleware)
 
