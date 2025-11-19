@@ -1,46 +1,2241 @@
-[2025-11-10 09:24:25 +0000] [155] [INFO] Starting gunicorn 21.2.0
-[2025-11-10 09:24:25 +0000] [155] [INFO] Listening at: http://127.0.0.1:8080 (155)
-[2025-11-10 09:24:25 +0000] [155] [INFO] Using worker: gthread
-[2025-11-10 09:24:25 +0000] [165] [INFO] Booting worker with pid: 165
-[2025-11-10 09:24:25 +0000] [166] [INFO] Booting worker with pid: 166
-[2025-11-10 09:24:25 +0000] [167] [INFO] Booting worker with pid: 167
-[2025-11-10 09:24:25 +0000] [168] [INFO] Booting worker with pid: 168
-[2025-11-10 09:24:25 +0000] [169] [INFO] Booting worker with pid: 169
-[2025-11-10 09:24:25 +0000] [170] [INFO] Booting worker with pid: 170
-[2025-11-10 09:24:25 +0000] [171] [INFO] Booting worker with pid: 171
-[2025-11-10 09:24:25 +0000] [172] [INFO] Booting worker with pid: 172
-[2025-11-10 09:44:00 +0000] [155] [INFO] Handling signal: term
-[2025-11-10 09:44:00 +0000] [166] [INFO] Worker exiting (pid: 166)
-[2025-11-10 09:44:00 +0000] [172] [INFO] Worker exiting (pid: 172)
-[2025-11-10 09:44:00 +0000] [167] [INFO] Worker exiting (pid: 167)
-[2025-11-10 09:44:00 +0000] [168] [INFO] Worker exiting (pid: 168)
-[2025-11-10 09:44:00 +0000] [171] [INFO] Worker exiting (pid: 171)
-[2025-11-10 09:44:00 +0000] [169] [INFO] Worker exiting (pid: 169)
-[2025-11-10 09:44:01 +0000] [165] [INFO] Worker exiting (pid: 165)
-[2025-11-10 10:09:03 +0000] [113] [INFO] Starting gunicorn 21.2.0
-[2025-11-10 10:09:03 +0000] [113] [INFO] Listening at: http://127.0.0.1:8080 (113)
-[2025-11-10 10:09:03 +0000] [113] [INFO] Using worker: gthread
-[2025-11-10 10:09:03 +0000] [123] [INFO] Booting worker with pid: 123
-[2025-11-10 10:09:03 +0000] [124] [INFO] Booting worker with pid: 124
-[2025-11-10 10:09:03 +0000] [125] [INFO] Booting worker with pid: 125
-[2025-11-10 10:09:03 +0000] [126] [INFO] Booting worker with pid: 126
-[2025-11-10 10:09:03 +0000] [127] [INFO] Booting worker with pid: 127
-[2025-11-10 10:09:03 +0000] [128] [INFO] Booting worker with pid: 128
-[2025-11-10 10:09:03 +0000] [129] [INFO] Booting worker with pid: 129
-[2025-11-10 10:09:03 +0000] [130] [INFO] Booting worker with pid: 130
-[2025-11-10 11:57:18 +0000] [113] [INFO] Handling signal: term
-[2025-11-10 11:57:18 +0000] [125] [INFO] Worker exiting (pid: 125)
-[2025-11-10 11:57:19 +0000] [123] [INFO] Worker exiting (pid: 123)
-[2025-11-10 11:57:19 +0000] [124] [INFO] Worker exiting (pid: 124)
-[2025-11-10 11:57:19 +0000] [129] [INFO] Worker exiting (pid: 129)
-[2025-11-11 06:59:00 +0000] [122] [INFO] Starting gunicorn 21.2.0
-[2025-11-11 06:59:00 +0000] [122] [INFO] Listening at: http://127.0.0.1:8080 (122)
-[2025-11-11 06:59:00 +0000] [122] [INFO] Using worker: gthread
-[2025-11-11 06:59:00 +0000] [132] [INFO] Booting worker with pid: 132
-[2025-11-11 06:59:00 +0000] [133] [INFO] Booting worker with pid: 133
-[2025-11-11 06:59:00 +0000] [134] [INFO] Booting worker with pid: 134
-[2025-11-11 06:59:00 +0000] [135] [INFO] Booting worker with pid: 135
-[2025-11-11 06:59:00 +0000] [136] [INFO] Booting worker with pid: 136
-[2025-11-11 06:59:01 +0000] [137] [INFO] Booting worker with pid: 137
-[2025-11-11 06:59:01 +0000] [138] [INFO] Booting worker with pid: 138
-[2025-11-11 06:59:01 +0000] [139] [INFO] Booting worker with pid: 139
+[2025-11-17 02:30:12 +0000] [275] [INFO] Starting gunicorn 21.2.0
+[2025-11-17 02:30:12 +0000] [275] [INFO] Listening at: http://127.0.0.1:8080 (275)
+[2025-11-17 02:30:12 +0000] [275] [INFO] Using worker: gthread
+[2025-11-17 02:30:12 +0000] [285] [INFO] Booting worker with pid: 285
+[2025-11-17 02:30:12 +0000] [286] [INFO] Booting worker with pid: 286
+[2025-11-17 02:30:12 +0000] [287] [INFO] Booting worker with pid: 287
+[2025-11-17 02:30:12 +0000] [288] [INFO] Booting worker with pid: 288
+[2025-11-17 02:30:12 +0000] [289] [INFO] Booting worker with pid: 289
+[2025-11-17 02:30:12 +0000] [290] [INFO] Booting worker with pid: 290
+[2025-11-17 02:30:12 +0000] [291] [INFO] Booting worker with pid: 291
+[2025-11-17 02:30:13 +0000] [292] [INFO] Booting worker with pid: 292
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:285)
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:286)
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:287)
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:290)
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:291)
+[2025-11-17 02:51:27 +0000] [275] [CRITICAL] WORKER TIMEOUT (pid:292)
+[2025-11-17 02:51:27 +0000] [285] [INFO] Worker exiting (pid: 285)
+[2025-11-17 02:51:27 +0000] [292] [INFO] Worker exiting (pid: 292)
+[2025-11-17 02:51:27 +0000] [290] [INFO] Worker exiting (pid: 290)
+[2025-11-17 02:51:27 +0000] [287] [INFO] Worker exiting (pid: 287)
+[2025-11-17 02:51:27 +0000] [286] [INFO] Worker exiting (pid: 286)
+[2025-11-17 02:51:27 +0000] [291] [INFO] Worker exiting (pid: 291)
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:287) exited with code 1
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:287) exited with code 1.
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:286) exited with code 1
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:286) exited with code 1.
+[2025-11-17 02:51:28 +0000] [1183] [INFO] Booting worker with pid: 1183
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:291) was sent SIGKILL! Perhaps out of memory?
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:290) was sent SIGKILL! Perhaps out of memory?
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:292) was sent SIGKILL! Perhaps out of memory?
+[2025-11-17 02:51:28 +0000] [1184] [INFO] Booting worker with pid: 1184
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:285) exited with code 1
+[2025-11-17 02:51:28 +0000] [275] [ERROR] Worker (pid:285) exited with code 1.
+[2025-11-17 02:51:28 +0000] [1185] [INFO] Booting worker with pid: 1185
+[2025-11-17 02:51:28 +0000] [1186] [INFO] Booting worker with pid: 1186
+[2025-11-17 02:51:28 +0000] [1187] [INFO] Booting worker with pid: 1187
+[2025-11-17 02:51:28 +0000] [1188] [INFO] Booting worker with pid: 1188
+[2025-11-18 01:50:52 +0000] [221] [INFO] Starting gunicorn 21.2.0
+[2025-11-18 01:50:52 +0000] [221] [INFO] Listening at: http://127.0.0.1:8080 (221)
+[2025-11-18 01:50:52 +0000] [221] [INFO] Using worker: gthread
+[2025-11-18 01:50:52 +0000] [231] [INFO] Booting worker with pid: 231
+[2025-11-18 01:50:52 +0000] [232] [INFO] Booting worker with pid: 232
+[2025-11-18 01:50:52 +0000] [233] [INFO] Booting worker with pid: 233
+[2025-11-18 01:50:52 +0000] [234] [INFO] Booting worker with pid: 234
+[2025-11-18 01:50:52 +0000] [235] [INFO] Booting worker with pid: 235
+[2025-11-18 01:50:52 +0000] [236] [INFO] Booting worker with pid: 236
+[2025-11-18 01:50:52 +0000] [237] [INFO] Booting worker with pid: 237
+[2025-11-18 01:50:52 +0000] [238] [INFO] Booting worker with pid: 238
+[2025-11-18 02:40:16 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:231)
+[2025-11-18 02:40:16 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:232)
+[2025-11-18 02:40:16 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:234)
+[2025-11-18 02:40:16 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:238)
+[2025-11-18 02:40:16 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2025-11-18 02:40:16 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2025-11-18 02:40:16 +0000] [238] [INFO] Worker exiting (pid: 238)
+[2025-11-18 02:40:16 +0000] [234] [INFO] Worker exiting (pid: 234)
+[2025-11-18 02:40:16 +0000] [221] [ERROR] Worker (pid:238) exited with code 1
+[2025-11-18 02:40:16 +0000] [221] [ERROR] Worker (pid:238) exited with code 1.
+[2025-11-18 02:40:17 +0000] [221] [ERROR] Worker (pid:232) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 02:40:17 +0000] [221] [ERROR] Worker (pid:234) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 02:40:17 +0000] [3038] [INFO] Booting worker with pid: 3038
+[2025-11-18 02:40:17 +0000] [3039] [INFO] Booting worker with pid: 3039
+[2025-11-18 02:40:17 +0000] [3040] [INFO] Booting worker with pid: 3040
+[2025-11-18 02:40:17 +0000] [221] [ERROR] Worker (pid:231) exited with code 1
+[2025-11-18 02:40:17 +0000] [221] [ERROR] Worker (pid:231) exited with code 1.
+[2025-11-18 02:40:17 +0000] [3041] [INFO] Booting worker with pid: 3041
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:233)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:235)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:236)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:237)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:3038)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:3039)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:3040)
+[2025-11-18 04:27:20 +0000] [221] [CRITICAL] WORKER TIMEOUT (pid:3041)
+[2025-11-18 04:27:20 +0000] [3040] [INFO] Worker exiting (pid: 3040)
+[2025-11-18 04:27:20 +0000] [3041] [INFO] Worker exiting (pid: 3041)
+[2025-11-18 04:27:20 +0000] [237] [INFO] Worker exiting (pid: 237)
+[2025-11-18 04:27:20 +0000] [3038] [INFO] Worker exiting (pid: 3038)
+[2025-11-18 04:27:20 +0000] [3039] [INFO] Worker exiting (pid: 3039)
+[2025-11-18 04:27:20 +0000] [233] [INFO] Worker exiting (pid: 233)
+[2025-11-18 04:27:20 +0000] [235] [INFO] Worker exiting (pid: 235)
+[2025-11-18 04:27:20 +0000] [236] [INFO] Worker exiting (pid: 236)
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:3041) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:235) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:237) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:3038) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:3039) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:3040) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 04:27:21 +0000] [221] [ERROR] Worker (pid:233) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/local/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/usr/local/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/usr/local/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:3041) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2025-11-18 04:27:21 +0000] [8738] [INFO] Booting worker with pid: 8738
+[2025-11-18 04:27:21 +0000] [8739] [INFO] Booting worker with pid: 8739
+[2025-11-18 04:27:21 +0000] [8740] [INFO] Booting worker with pid: 8740
+[2025-11-18 04:27:21 +0000] [8741] [INFO] Booting worker with pid: 8741
+[2025-11-18 04:27:22 +0000] [8742] [INFO] Booting worker with pid: 8742
+[2025-11-18 04:27:22 +0000] [8743] [INFO] Booting worker with pid: 8743
+[2025-11-18 04:27:22 +0000] [8744] [INFO] Booting worker with pid: 8744
+[2025-11-18 04:27:22 +0000] [8745] [INFO] Booting worker with pid: 8745
+[2025-11-18 09:51:37 +0000] [212] [INFO] Starting gunicorn 21.2.0
+[2025-11-18 09:51:37 +0000] [212] [INFO] Listening at: http://127.0.0.1:8080 (212)
+[2025-11-18 09:51:37 +0000] [212] [INFO] Using worker: gthread
+[2025-11-18 09:51:37 +0000] [222] [INFO] Booting worker with pid: 222
+[2025-11-18 09:51:38 +0000] [223] [INFO] Booting worker with pid: 223
+[2025-11-18 09:51:38 +0000] [224] [INFO] Booting worker with pid: 224
+[2025-11-18 09:51:38 +0000] [225] [INFO] Booting worker with pid: 225
+[2025-11-18 09:51:38 +0000] [226] [INFO] Booting worker with pid: 226
+[2025-11-18 09:51:38 +0000] [228] [INFO] Booting worker with pid: 228
+[2025-11-18 09:51:38 +0000] [227] [INFO] Booting worker with pid: 227
+[2025-11-18 09:51:38 +0000] [229] [INFO] Booting worker with pid: 229
+[2025-11-18 09:51:43] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:51:45] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:51:50] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 09:51:50] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 09:51:51] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 37, in connect
+    self.sock = ssl.wrap_socket(
+                ^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'wrap_socket'
+b"Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)"
+[2025-11-18 09:51:51] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 09:51:52] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:51:53] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:51:53] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 37, in connect
+    self.sock = ssl.wrap_socket(
+                ^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'wrap_socket'
+b"Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)"
+[2025-11-18 09:51:53] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 09:51:54] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 37, in connect
+    self.sock = ssl.wrap_socket(
+                ^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'wrap_socket'
+b"Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)"
+[2025-11-18 09:51:54] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 09:52:00] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:52:01] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 09:52:01] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 37, in connect
+    self.sock = ssl.wrap_socket(
+                ^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'wrap_socket'
+b"Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)"
+[2025-11-18 09:52:01] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 09:52:01] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 37, in connect
+    self.sock = ssl.wrap_socket(
+                ^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'wrap_socket'
+b"Sentry responded with an error: module 'ssl' has no attribute 'wrap_socket' (url: https://sentry.io/api/263057/store/)"
+[2025-11-18 09:52:01] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.5), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 10:37:25 +0000] [212] [CRITICAL] WORKER TIMEOUT (pid:224)
+[2025-11-18 10:37:25 +0000] [212] [CRITICAL] WORKER TIMEOUT (pid:225)
+[2025-11-18 10:37:25 +0000] [224] [INFO] Worker exiting (pid: 224)
+[2025-11-18 10:37:25 +0000] [225] [INFO] Worker exiting (pid: 225)
+[2025-11-18 10:37:26 +0000] [212] [ERROR] Worker (pid:225) exited with code 1
+[2025-11-18 10:37:26 +0000] [212] [ERROR] Worker (pid:225) exited with code 1.
+[2025-11-18 10:37:26 +0000] [2188] [INFO] Booting worker with pid: 2188
+[2025-11-18 10:37:26 +0000] [212] [ERROR] Worker (pid:224) was sent SIGKILL! Perhaps out of memory?
+[2025-11-18 10:37:26 +0000] [2189] [INFO] Booting worker with pid: 2189
+[2025-11-18 14:14:56 +0000] [251] [INFO] Starting gunicorn 21.2.0
+[2025-11-18 14:14:56 +0000] [251] [INFO] Listening at: http://127.0.0.1:8080 (251)
+[2025-11-18 14:14:56 +0000] [251] [INFO] Using worker: gthread
+[2025-11-18 14:14:56 +0000] [267] [INFO] Booting worker with pid: 267
+[2025-11-18 14:14:56 +0000] [268] [INFO] Booting worker with pid: 268
+[2025-11-18 14:14:57 +0000] [269] [INFO] Booting worker with pid: 269
+[2025-11-18 14:14:57 +0000] [270] [INFO] Booting worker with pid: 270
+[2025-11-18 14:14:57 +0000] [272] [INFO] Booting worker with pid: 272
+[2025-11-18 14:14:57 +0000] [271] [INFO] Booting worker with pid: 271
+[2025-11-18 14:14:57 +0000] [273] [INFO] Booting worker with pid: 273
+[2025-11-18 14:14:57 +0000] [274] [INFO] Booting worker with pid: 274
+[2025-11-18 14:15:02] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:04] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:09] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:09] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:11] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:11] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:15] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:15] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:19] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:20] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:20] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:21] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:25] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:25] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:26] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:26] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:30] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:32] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:32] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:32] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:37] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:37] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:39] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:39] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:43] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:43] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:46] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:46] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:46] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:46] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:48] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:48] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:15:53] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:15:53] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-18 14:15:53] - [ERROR] - [django_dbconn_retry.apps:55]  - Reconnecting to the database didn't help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:15:55] - [ERROR] - [root:156]  - connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/utils/api/api.py", line 149, in dispatch
+    return super(APIView, self).dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/utils/api/api.py", line 181, in handle
+    return view_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/conf/views.py", line 137, in post
+    if hashlib.sha256(SysOptions.judge_server_token.encode("utf-8")).hexdigest() != client_token:
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 67, in __get__
+    return self.func(obj)
+           ^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 242, in judge_server_token
+    return cls._get_option(OptionKeys.judge_server_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/options/options.py", line 142, in _get_option
+    option = SysOptionsModel.objects.get(key=option_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries
+    self.ensure_connection()
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries
+    with self.wrap_database_errors:
+  File "/usr/local/lib/python3.12/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.12/site-packages/django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/utils/asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up
+
+[2025-11-18 14:16:01] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:16:01] - [ERROR] - [sentry.errors.uncaught:712]  - ['Reconnecting to the database didn\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n']
+b'[\'Reconnecting to the database didn\\\'t help connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\']'
+[2025-11-18 14:16:06] - [ERROR] - [sentry.errors:686]  - Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 29, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/threaded.py", line 165, in send_sync
+    super(ThreadedHTTPTransport, self).send(url, data, headers)
+  File "/usr/local/lib/python3.12/site-packages/raven/transport/http.py", line 38, in send
+    response = urlopen(
+               ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 66, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/raven/utils/http.py", line 46, in https_open
+    return self.do_open(ValidHTTPSConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Try again>
+b'Sentry responded with an error: <urlopen error [Errno -3] Try again> (url: https://sentry.io/api/263057/store/)'
+[2025-11-18 14:16:06] - [ERROR] - [sentry.errors.uncaught:712]  - ['connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\n', '  File "utils/api/api.py", line 149, in dispatch', '  File "django/views/generic/base.py", line 98, in dispatch', '  File "utils/api/api.py", line 181, in handle', '  File "conf/views.py", line 137, in post', '  File "options/options.py", line 67, in __get__', '  File "options/options.py", line 242, in judge_server_token', '  File "options/options.py", line 142, in _get_option', '  File "django/db/models/manager.py", line 85, in manager_method', '  File "django/db/models/query.py", line 431, in get', '  File "django/db/models/query.py", line 262, in __len__', '  File "django/db/models/query.py", line 1324, in _fetch_all', '  File "django/db/models/query.py", line 51, in __iter__', '  File "django/db/models/sql/compiler.py", line 1173, in execute_sql', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 259, in cursor', '  File "django/db/backends/base/base.py", line 235, in _cursor', '  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries', '  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries', '  File "django/db/utils.py", line 90, in __exit__', '  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/base/base.py", line 200, in connect', '  File "django/utils/asyncio.py", line 33, in inner', '  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection', '  File "psycopg2/__init__.py", line 122, in connect']
+b'[\'connection to server at "oj-postgres" (172.18.0.3), port 5432 failed: FATAL:  the database system is starting up\\n\', \'  File "utils/api/api.py", line 149, in dispatch\', \'  File "django/views/generic/base.py", line 98, in dispatch\', \'  File "utils/api/api.py", line 181, in handle\', \'  File "conf/views.py", line 137, in post\', \'  File "options/options.py", line 67, in __get__\', \'  File "options/options.py", line 242, in judge_server_token\', \'  File "options/options.py", line 142, in _get_option\', \'  File "django/db/models/manager.py", line 85, in manager_method\', \'  File "django/db/models/query.py", line 431, in get\', \'  File "django/db/models/query.py", line 262, in __len__\', \'  File "django/db/models/query.py", line 1324, in _fetch_all\', \'  File "django/db/models/query.py", line 51, in __iter__\', \'  File "django/db/models/sql/compiler.py", line 1173, in execute_sql\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 259, in cursor\', \'  File "django/db/backends/base/base.py", line 235, in _cursor\', \'  File "django_dbconn_retry/apps.py", line 69, in ensure_connection_with_retries\', \'  File "django_dbconn_retry/apps.py", line 48, in ensure_connection_with_retries\', \'  File "django/db/utils.py", line 90, in __exit__\', \'  File "django_dbconn_retry/apps.py", line 51, in ensure_connection_with_retries\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/base/base.py", line 200, in connect\', \'  File "django/utils/asyncio.py", line 33, in inner\', \'  File "django/db/backends/postgresql/base.py", line 187, in get_new_connection\', \'  File "psycopg2/__init__.py", line 122, in connect\']'
+[2025-11-19 03:02:04 +0000] [202] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 03:02:04 +0000] [202] [INFO] Listening at: http://127.0.0.1:8080 (202)
+[2025-11-19 03:02:04 +0000] [202] [INFO] Using worker: gthread
+[2025-11-19 03:02:04 +0000] [212] [INFO] Booting worker with pid: 212
+[2025-11-19 03:02:04 +0000] [213] [INFO] Booting worker with pid: 213
+[2025-11-19 03:02:04 +0000] [214] [INFO] Booting worker with pid: 214
+[2025-11-19 03:02:04 +0000] [215] [INFO] Booting worker with pid: 215
+[2025-11-19 03:02:04 +0000] [216] [INFO] Booting worker with pid: 216
+[2025-11-19 03:02:05 +0000] [217] [INFO] Booting worker with pid: 217
+[2025-11-19 03:02:05 +0000] [218] [INFO] Booting worker with pid: 218
+[2025-11-19 03:02:05 +0000] [219] [INFO] Booting worker with pid: 219
+[2025-11-19 03:02:29] - [DEBUG] - [dramatiq.broker.RedisBroker:184]  - Enqueueing message '79c1fa87-77fb-4f84-88cc-0d59e0f59509' on queue 'default'.
+[2025-11-19 03:03:05] - [DEBUG] - [dramatiq.broker.RedisBroker:184]  - Enqueueing message '87e1f315-808e-4d17-a9b6-0dd0730dc338' on queue 'default'.
