@@ -32,14 +32,13 @@
         </div>
       </div>
 
-      <div class="section ai-feedback">
+      <div class="section ai-feedback" v-if="aiFeedback">
         <h3>AI 튜터 피드백</h3>
-        <div class="feedback-box blue-box">
-          AI 분석 결과: 코드 로직이 효율적이며 불필요한 반복이 없습니다 ✅
-        </div>
         <div class="feedback-box yellow-box">
-          단계별 힌트가 여기에 표시됩니다.
+          <pre>{{ aiFeedback }}</pre>
         </div>
+      </div>
+
       </div>
     </div>
 
@@ -125,6 +124,8 @@
         statusVisible: false,
         captchaRequired: false,
         graphVisible: false,
+        aiFeedback: '',
+
         submissionExists: false,
         captchaCode: '',
         captchaSrc: '',
@@ -299,6 +300,27 @@
         }
         this.refreshStatus = setTimeout(checkStatus, 2000)
       },
+
+      async requestAIFeedback() {
+        try {
+          const res = await api.post('/ai-feedback', {
+            problem_id: this.problem.id,
+            problem_description: this.problem.description,
+            user_code: this.code,
+            language: this.language
+          });
+
+          
+          this.aiFeedback =
+            res.data?.data?.feedback ||
+            res.data?.feedback ||
+            "AI로부터 받은 피드백이 없습니다.";
+        } catch (err) {
+          console.error("AI Feedback 요청 실패:", err);
+          this.aiFeedback = "AI 피드백을 불러오는 중 오류가 발생했습니다.";
+        }
+      },
+
       submitCode () {
         if (this.code.trim() === '') {
           this.$error(this.$i18n.t('m.Code_can_not_be_empty'))
@@ -321,6 +343,8 @@
           api.submitCode(data).then(res => {
             this.submissionId = res.data.data && res.data.data.submission_id
             // 定时检查状态
+            this.requestAIFeedback();
+
             this.submitting = false
             this.submissionExists = true
             if (!detailsVisible) {
