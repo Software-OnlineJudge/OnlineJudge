@@ -39,7 +39,6 @@
         </div>
       </div>
 
-      </div>
     </div>
 
     <div class="right-panel">
@@ -304,17 +303,22 @@
       async requestAIFeedback() {
         try {
           const res = await api.post('/ai-feedback', {
-            problem_id: this.problem.id,
+            problem_id: this.problem_id,
             problem_description: this.problem.description,
             user_code: this.code,
             language: this.language
           });
 
-          
-          this.aiFeedback =
-            res.data?.data?.feedback ||
-            res.data?.feedback ||
-            "AI로부터 받은 피드백이 없습니다.";
+          const feedback =
+            res &&
+            res.data &&
+            res.data.data &&
+            res.data.data.feedback;
+
+          this.aiFeedback = feedback
+            ? feedback
+            : "AI로부터 받은 피드백이 없습니다.";
+
         } catch (err) {
           console.error("AI Feedback 요청 실패:", err);
           this.aiFeedback = "AI 피드백을 불러오는 중 오류가 발생했습니다.";
